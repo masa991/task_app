@@ -1,0 +1,15 @@
+current directory: /Users/masaki/task_app/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.4/ext/websocket-driver
+/Users/masaki/.rbenv/versions/3.0.0/bin/ruby -I /Users/masaki/.rbenv/versions/3.0.0/lib/ruby/3.0.0 -r ./siteconf20210604-96596-fhf3xl.rb extconf.rb
+creating Makefile
+
+current directory: /Users/masaki/task_app/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.4/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/masaki/task_app/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.4/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/masaki/task_app/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.4/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20210604-96596-ck0psh
