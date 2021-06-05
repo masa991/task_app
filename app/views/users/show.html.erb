@@ -1,0 +1,32 @@
+<h2>スケジュール詳細</h2>
+
+<table>
+    <tr>
+        <th>タイトル</th>
+        <td><%= @user.title %></td>
+    </tr>
+    <tr>
+        <th>開始日</th>
+        <td><%= @user.start_day.to_s(:date_jp) %></td>
+    </tr>
+    <tr>
+        <th>終了日</th>
+        <td><%= @user.end_day.to_s(:date_jp) %></td>
+    </tr>
+    <tr>
+        <th>終日</th>
+        <td><%= @user.all_day %></td>
+    </tr>
+    <tr>
+        <th>スケジュールメモ</th>
+        <td><%= safe_join(@user.memo.split("\n"),tag(:br)) %></td>
+    </tr>
+</table>
+
+<div>
+    <ul>
+        <li><%= link_to "スケジュール一覧に戻る", :users %></li>
+        <li><%= link_to "スケジュールを編集する", [:edit, :user] %></li>
+        <li><%= link_to "スケジュールを削除", :user, method: :delete, data: { confirm:"本当に削除しますか？"} %></li>
+    </ul>
+</div>
