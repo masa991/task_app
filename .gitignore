@@ -38,3 +38,8 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+
+# Ignore rails i18n files
+/vendor/bundle/ruby/3.0.0/gems/rails-i18n-6.0.0/
+/vendor/bundle/ruby/3.0.0/cache/rails-i18n-6.0.0.gem
+/vendor/bundle/ruby/3.0.0/specifications/rails-i18n-6.0.0.gemspec
